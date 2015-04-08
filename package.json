@@ -1,6 +1,6 @@
 {
   "name": "serialize-stl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "STL (ASCII and binary) file serialization",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,9 @@
     "mesh"
   ],
   "author": "thibauts",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "serialize-stl-ascii": "^1.0.1",
+    "serialize-stl-binary": "^1.0.0"
+  }
 }
